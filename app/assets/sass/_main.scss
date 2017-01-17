@@ -1,0 +1,178 @@
+.thisHide{
+  display:none;
+}
+.noScroll{
+ 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.over{
+//  background-color:white;
+  height:100%;
+  width:100%;
+  z-index:100;
+  position:absolute;
+
+}
+pre{
+    position: fixed;
+    z-index: 10000;
+}
+// .main{
+//     height: 90%!important;
+//     .first{
+//         height: 90%!important;
+//     }
+// }
+.mainView{
+
+.vAlign{
+    // top: 50%;
+    // transform: translateY(-50%);
+    // position: fixed;
+    // padding-right: 8.333333%;
+}
+}
+
+.trans{
+    transition: all 1s;
+}
+
+.hhide{
+    display: none;
+    height: 0px;
+    overflow: hidden;
+}
+.showThis{
+    height: 150px;;
+    display: inline-block;
+
+}
+
+@keyframes changeColor {
+  from {
+    color: #fff;
+  }
+
+  to {
+    color: $lime;
+  }
+}
+.greenAnim{
+    animation-duration: 2s;
+    animation-name: changeColor;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+  .reveal-animation.ng-enter {
+    -webkit-animation: Fade-Enter-Anime 1s;
+    -moz-animation: Fade-Enter-Anime 1s;
+    animation: Fade-Enter-Anime 1s;
+  }
+  .reveal-animation.ng-leave {
+    -webkit-animation: Fade-Leave-Anime 1s;
+    -moz-animation: Fade-Leave-Anime 1s;
+    animation: Fade-Leave-Anime 1s;
+  }
+  .Content-Fade-Leave {
+    -webkit-animation: Fade-Leave-Anime 5s;
+    -moz-animation: Fade-Leave-Anime 5s;
+    animation: Fade-Leave-Anime 5s;
+  }
+
+
+
+  @keyframes Fade-Enter-Anime {
+       from { opacity: 0.1; }
+       to { opacity: 1; }
+     }
+
+  @keyframes Fade-Leave-Anime {
+    from { opacity: 1; }
+    to { opacity: 0.1; }
+  }
+
+
+  @-webkit-keyframes Fade-Enter-Anime {
+    from { opacity: 0.1; }
+    to { opacity: 1; }
+  }
+
+  @-webkit-keyframes Fade-Leave-Anime {
+    from { opacity: 1; }
+    to { opacity: 0.1; }
+  }
+
+  @-moz-keyframes Fade-Enter-Anime {
+    from { opacity: 0.1; }
+    to { opacity: 1; }
+  }
+
+  @-moz-keyframes Fade-Leave-Anime {
+    from { opacity: 1; }
+    to { opacity: 0.1; }
+  }
+  @media only screen and (min-width: 767px) {
+  .bodyMcVities{
+      background-color: #EF4723;
+  }
+  .bodySubaru{
+      background-color: #2780BB;
+  }
+  .bodyShipOnyx{
+      background-color: #424243;
+  }
+  .bodyOSC{
+      background-color: #fff;
+  }
+  .bodyMerryMaids{
+      background-color: #77BC1F;
+  }
+  .bodyONEnergy{
+      background-color: #231f20;
+  }
+  .bodyThomsonRogers{
+      background-color: #00502F;
+  }
+  .bodyHeathAndSherwood{
+      background-color: #00afef;
+  }
+  .bodySilks{
+      background-color: #C2A4B7;
+  }
+  .bodyGlobeAndMail{
+      background-color: #a8a9ad;
+  }
+  .bodySunwave{
+      background-color: #82BC00;
+  }
+  .bodyAmeriSpec{
+      background-color: #00476c;
+  }
+  .bodyPremier{
+      background-color: #250858;
+  }
+  .bodyFurnitureMedic{
+      background-color: #4c2b21;
+  }
+.bodyCarlsberg{
+      background-color: #022118;
+  }
+.bodyCranberry{
+      background-color: #007DC3;
+  }
+.bodyServiceMaster{
+      background-color: #00ABBB;
+  }
+.bodytorontoTourism{
+      background-color: #fff;
+  }
+.bodyDiago{
+      background-color: #C70751;
+  }
+  }
+  @media only screen and (max-width: 767px) {
+  }
+  

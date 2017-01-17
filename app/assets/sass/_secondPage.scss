@@ -1,0 +1,74 @@
+.secondPanel{
+     -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
+    
+    div{
+
+        .allText{
+            @extend .centerText;
+            .mainText{
+                    line-height: 1;
+                font-size: $bigFont;
+                    margin-bottom: 20px;
+               
+                .firstLine{
+                    font-style: italic;
+                    .firstLineLime{
+                        color: $lime;
+                    }
+                }
+                div{
+                    font-weight: 600;
+                }
+                .secondLine{
+                    font-size: 108px;
+                }
+                .thirdLine{
+                    font-size: 108px;
+                    padding-left: 160px;
+                }
+            }
+        }
+    }
+}
+
+.limeBG{
+    background: $lime;
+        div{
+        .allText{
+
+            .mainText{
+                     
+                .firstLine{
+                    .firstLineLime{
+                             -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
+                        color: #fff;
+                    }
+                }
+                div{
+
+                }
+                .secondLine{
+
+                }
+                .thirdLine{
+
+                }
+            }
+        }
+    }
+}
+.whiteBG{
+    background: #fff;
+}

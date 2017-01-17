@@ -1,0 +1,893 @@
+    .workMain {
+        margin-top: 41px !important;
+    }
+    
+  .mainWork {
+      height: 100%;
+      position: relative;
+      display: flex;
+      .changeWidth {
+        width: 100%;
+        max-width: 1500px;
+        display: inline-flex;
+        right: 0;
+        position: absolute;
+        height: 100%;
+        margin-right: 90px;
+      }
+      .workText {
+          div {
+              position: absolute;
+              //   bottom: 0px;
+              padding: 45px;
+              top: 50%;
+              transform: translateY(-50%);
+              img {
+                  padding: 20px;
+                  width: 70%;
+              }
+          }
+      }
+  }
+
+  .workMcVitiesOutside {
+      // position: relative;
+      .workFirst {
+          //   position: absolute;
+          //   top: 50%;
+          //   transform: translateY(-50%);
+          .text {
+              //   background-color: #EF4723;
+          }
+          .booth {
+              background-color: #272D67;
+              div {
+                  position: absolute;
+              }
+          }
+          .pc {
+              background-color: #2CABD4;
+              height: 100%;
+              .pcPic {
+                  margin: 25px;
+              }
+          }
+      }
+  }
+
+  .parent {
+      position: relative;
+      .allContent {
+          //   border:thin solid red;
+          top: 50%;
+          transform: translateY(-50%);
+          position: absolute;
+      }
+  }
+
+  .workMerryMaidsPanel {
+      .workText {
+          //   background-color: #77BC1F;
+      }
+      .pc {
+          background-color: #2CABD4;
+          height: 100%;
+          position: absolute;
+          bottom: 0px;
+          .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 80%;
+              }
+          }
+      }
+      .phone {
+          background-color: #9398CC;
+          float: right;
+          img {
+              width: 50%;
+              margin: 25px;
+          }
+      }
+  }
+
+  .workOnenergyPanel {
+      .workText {
+          color: #fff;
+          //   background-color: #231f20;
+      }
+  }
+
+    .workShipOnyxPanel {
+      .workText {
+          color: #fff;
+      }
+      .home{
+          background-color: #000;
+                    height: 100%;
+
+
+          .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+
+                  width: 80%;
+                  padding: 20px;
+              }
+          }
+      }
+      .pcs {
+          background-color: #000;
+                    height: 100%;
+          position: absolute;
+
+          .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 80%;
+              }
+          }
+      }
+      .ad {
+          background-color: #A93439;
+          height: 100%;
+          position: absolute;
+          right:0px;
+          .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 44%;
+              }
+          }
+      }
+
+  }
+    .workDiagoPanel {
+      .workText {
+          color: #fff;
+      }
+      .pcs{
+          background-color: #D1D3D4;
+      }
+
+  }
+  .workOSCPanel{
+       .workText {
+          color: #000;
+      }
+      .mainOSC{
+          background-color: #CE2030;
+      }
+      .rightSide{
+
+    right: 0px;
+          .phone {
+              background-color: #105BA7;
+              height: 100%;
+            //   position: absolute;
+              .centerBoth {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  img {
+                      width: 92%;
+                  }
+              }
+          }
+          .bird{
+                            background-color: #077641;
+              height: 100%;
+            //   position: absolute;
+              .centerBoth {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  img {
+
+                      width: 64%;
+                  }
+              }
+          }
+      }
+  }
+  .workGlobeAndMailPanel{
+       .workText {
+          color: #000;
+      }
+      .mainOSC{
+          background-color: #f5f5f5;
+          height: 100%;
+          position: absolute;
+                        .centerBoth {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  img {
+                          top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+                      width: 98%;
+                  }
+              }
+      }
+      .rightSide{
+          float: right;
+    right: 0px;
+          .phone {
+              background-color: #d02727;
+              height: 100%;
+            //   position: absolute;
+
+
+                  img {
+                    padding: 30px;
+
+              }
+          }
+          .bird{
+                            background-color: #CE2727;
+              height: 100%;
+            //   position: absolute;
+
+
+                  img {
+                    padding: 30px;
+
+              }
+          }
+      }
+  }
+  .workServiceMasterPanel{
+       .workText {
+          color: #000;
+      }
+      .mainOSC{
+          background-color: #f5f5f5;
+
+
+      }
+      .rightSide{
+    right: 0px;
+    height: 50%;
+    position: absolute;
+          .phone {
+              background-color: #fff;
+              height: 100%;
+            //   position: absolute;
+                                     .centerBoth {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+             img {
+                           top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 80%;
+
+              }
+              }
+
+
+          }
+
+      }
+  }
+
+
+  .hideAll {
+      display: none;
+  }
+
+  .workThomsonRogersPanel {
+      .workText {
+          color: #fff;
+      }
+      .imgs {
+          background-color: #728472;
+          padding: 0 5%;
+          img {
+              padding: 3%;
+          }
+      }
+      .magazine {
+          background-color: #03341D;
+          height: 100%;
+          position: absolute;
+          bottom: 0px;
+          .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 80%;
+              }
+          }
+      }
+  }
+
+  .workHeathPanel {
+      .workText {
+          color: #fff;
+      }
+      .right {
+          // right: 0px;
+          // height: 100%;
+          // position: fixed;
+          div {
+              // height: 50%;
+          }
+          .ad {
+              top: 91%;
+              background-color: #f5b417;
+              height: 86%;
+              position: absolute;
+              .centerBoth {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  img {
+                      top: 50%;
+                      transform: translateY(-50%);
+                      position: absolute;
+                      width: 64%;
+                  }
+              }
+          }
+      }
+  }
+    .workSilksPanel{
+       .workText {
+          color: #fff;
+      }
+      .rightSide{
+          height: 50%;
+             position: absolute;
+    right: 0px;
+          .phone {
+              background-color: #E7E2D7;
+              height: 100%;
+            //   position: absolute;
+              .centerBoth {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  img {
+                      top: 50%;
+                      transform: translateY(-50%);
+                      position: absolute;
+                      height: 80%
+                  }
+              }
+          }
+          .bird{
+                            background-color: #FFCCCC;
+              height: 100%;
+            //   position: absolute;
+              .centerBoth {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  img {
+                      top: 50%;
+                      transform: translateY(-50%);
+                      position: absolute;
+                      width: 64%;
+                  }
+              }
+          }
+      }
+  }
+
+  .workSunwavePanel{
+       .workText {
+          color: #fff;
+      }
+      .rightSide{
+          height: 50%;
+             position: absolute;
+    right: 0px;
+          .phone {
+              background-color: #D50054;
+              height: 100%;
+            //   position: absolute;
+              .centerBoth {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  img {
+                      top: 50%;
+                      transform: translateY(-50%);
+                      position: absolute;
+                      height: 80%
+                  }
+              }
+          }
+          .bird{
+                            background-color: #00A1DF;
+              height: 100%;
+            //   position: absolute;
+              .centerBoth {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  img {
+                      top: 50%;
+                      transform: translateY(-50%);
+                      position: absolute;
+                      width: 64%;
+                  }
+              }
+          }
+      }
+  }
+  .workAmeriSpecPanel {
+      .workText {
+          color: #fff;
+      }
+            .phone {
+          background-color: #ee2e4e;
+          height: 100%;
+          position: absolute;
+          right: 0px;
+          .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 80%;
+              }
+          }
+      }
+
+//       .phone {
+//           background-color: #ee2e4e;
+// .centerBoth {
+//                   display: flex;
+//                   justify-content: center;
+//                   align-items: center;
+//                   img {
+//                       top: 50%;
+//                       transform: translateY(-50%);
+//                       position: absolute;
+//                       width: 64%;
+//                   }
+//       }
+//   }
+  }
+  .workPremierPanel {
+      .workText {
+          color: #fff;
+      }
+      .pcs {
+              position: absolute;
+    height: 100%;
+          background-color: #fcdc87;
+                    .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 80%;
+              }
+          }
+
+      }
+      .phone {
+          background-color: #65c8c6;
+          float: right;
+
+              img{
+                  width: 60%;
+              }
+
+        //   height: 100%;
+
+        //             .centerBoth {
+        //       display: flex;
+        //       justify-content: center;
+        //       align-items: center;
+        //       img {
+        //           top: 50%;
+        //           transform: translateY(-50%);
+        //           position: absolute;
+        //           width: 80%;
+        //       }
+        //   }
+      }
+  }
+
+  .workFurnitureMedicPanel {
+      .workText {
+          color: #fff;
+      }
+      .pcs {
+          background-color: #8e967e;
+                    height: 100%;
+          position: absolute;
+
+          .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 80%;
+              }
+          }
+      }
+      .ad {
+          background-color: #7eadb7;
+          height: 100%;
+          position: absolute;
+          right:0px;
+          .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 80%;
+              }
+          }
+      }
+
+  }
+  .workCranberryPanel {
+      .workText {
+          color: #fff;
+      }
+      .main{
+          background-color: #D1D0CE;
+      }
+      .pcs {
+          background-color: #B50938;
+                    height: 100%;
+          position: absolute;
+
+          .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 80%;
+              }
+          }
+      }
+      .ad {
+          background-color: #007DC3;
+          height: 100%;
+          position: absolute;
+          right:0px;
+          .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 80%;
+              }
+          }
+      }
+
+  }
+
+  .workCarlsbergcPanel {
+      .workText {
+          color: #fff;
+      }
+      .pc {
+          background-color: #6cb663;
+          height: 100%;
+          position: absolute;
+          .centerBoth {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 80%;
+              }
+          }
+      }
+      .ad {
+          background-color: #7eadb7;
+          img {
+              width: 50%;
+              margin: 25px;
+          }
+      }
+  }
+  .workMcVitiescPanel {
+      .workText {
+          color: #fff;
+      }
+      .booth {
+          background-color: #272D67;
+      }
+      .pc {
+          background-color: #fff;
+          height: 45%;
+          position: absolute;
+          bottom: 0px;
+
+              img {
+                  top: 50%;
+                  transform: translateY(-50%);
+                  position: absolute;
+                  width: 68%;
+                      left: 0;
+    right: 0;
+    margin: auto;
+              }
+          
+      }
+      .ad {
+          background-color: #7eadb7;
+          img {
+              width: 50%;
+              margin: 25px;
+          }
+      }
+  }
+  .workSubaruPanel {
+      .workText {
+          color: #fff;
+      }
+      .allContent{
+          background-color: #BCBEC0;
+          div{
+              img{
+                  width: 60%;
+                  padding: 20px;
+              }
+          }
+      }
+
+  }
+  .worktorontoTourismPanel {
+      .workText {
+          color: #000;
+      }
+
+
+  }
+  .centerBoth {
+    img {
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;
+    }
+  }
+
+  .hideAll {
+      display: none;
+  }
+  @media only screen and (max-width: 1692px) {
+     .mainWork {
+        .changeWidth {
+            margin-right: 0px;
+        }
+     }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .workGlobeAndMailPanel {
+      .mainOSC {
+          background-color: #f5f5f5;
+          height: inherit;
+          position: relative;
+          .centerBoth img {
+            top: inherit;
+            transform: inherit;
+            position: inherit;
+            width: inherit;
+          }
+      }
+    }
+  }
+  @media only screen and (max-width: 850px) {
+
+  .mainWork {
+      .workText {
+          div {
+              top: 44%;
+
+              padding: 5px;
+             img {
+                  padding: 5px;
+                  width: 50%;
+              }
+
+          }
+      }
+  }
+  }
+
+  @media only screen and (max-width: 767px) {
+          .indicators {
+              top: 20px;
+      ul {
+
+        padding-left: 0px;
+        a{
+            margin-top: 1%;
+        }
+
+      }
+          }
+  .mainWork {
+      .workText {
+          div {
+
+
+              padding: 5px;
+
+              img {
+                  padding: 5px;
+                  width: 50%;
+              }
+          }
+      }
+  }
+
+.mainWork{
+    .changeWidth {
+                      background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+              background-position: center;
+         .workText {
+                  color: #fff;
+                  background-color: rgba(0, 0, 0, .7);
+                  // background-image: url(/app/assets/img/background.png);
+                  // background-repeat: repeat;
+                  div {
+                      // opacity: 1;
+                  }
+              }
+    }
+}
+
+
+      .workMcVitiescPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/mcvities-contest.jpg);
+          }
+      }
+      .workMerryMaidsPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/merrymaids-main.jpg);
+           }
+      }
+      .workSubaruPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/subaru-top.png);
+               }
+      }
+      .workShipOnyxPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/shiponyx-home.png);
+           }
+      }
+      .workOSCPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/osc-main.png);
+          }
+      }
+      .workOnenergyPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/onenergy-main.jpg);
+          }
+      }
+      .workThomsonRogersPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/thomson-rogers-vs-big.jpg);
+          }
+      }
+      .workSunwavePanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/sunwave-home.jpg);
+          }
+      }
+      .workHeathPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/heath-and-sherwood.jpg);
+          }
+      }
+      .workAmeriSpecPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/amerispec-pc.jpg);
+          }
+      }
+      .workPremierPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/premier-pamphlets.jpg);
+          }
+      }
+      .workFurnitureMedicPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/furnituremedic-magzines.jpg);
+          }
+      }
+      .workCarlsbergcPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/carlsberg-magazine.jpg);
+          }
+      }
+      .workSilksPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/silks-main.jpg);
+          }
+      }
+      .workGlobeAndMailPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/globe-and-mail.png);
+          }
+      }
+      .workCranberryPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/cranberry-ipad.jpg);
+          }
+      }
+      .workServiceMasterPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/service-master-main.jpg);
+          }
+      }
+      .worktorontoTourismPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/janet-main.jpg);
+          }
+      }
+      .workDiagoPanel {
+          .changeWidth {
+              background-image: url(/app/assets/img/diago-tequila.jpg);
+          }
+      }
+  }
+          .centerBoths {
+    //               -moz-box-align: center;
+    // align-items: center;
+
+    // display: flex;
+    // justify-content: center;
+      
+          
+          }

@@ -1,0 +1,62 @@
+.forthPanel{
+ @extend .slowTrans;
+    
+
+        .allText{
+            @extend .centerText;
+            .mainText{
+                    line-height: 1;
+                font-size: $bigFont;
+                    margin-bottom: 20px;
+               
+                .firstLine{
+                    @extend .em;
+
+                    color: $lime;
+                    
+                }
+                .secondLine{
+                     @extend .bold;
+                     font-size: 108px;
+                    color: $lime;
+                     
+                }
+
+
+        }
+    }
+}
+.FifthPanel{
+    @extend .slowTrans;
+    position: relative;
+        .allImages{
+            @extend .centerText;
+            height: 100%;
+            div{
+                height: 50%;
+                @extend .center;
+                img{
+                    width: 50%;                    
+                }
+            }
+            .mcvities{
+                background-color: #ef4622;
+            }
+            .merry-maids{
+                background-color: #77bc43;
+            }
+            .heathandsherwood{
+                background-color: #00aeef;
+            }
+            .onenergy{
+                background-color: #000;
+            }
+            .amerispec{
+                background-color: #00476b;
+            }
+            .seeMore{
+                font-size: 32px;
+                color: $lime;
+            }
+    }    
+}

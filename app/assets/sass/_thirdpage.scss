@@ -1,0 +1,35 @@
+.thirdPanel{
+     -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
+    
+
+        .allText{
+            @extend .centerText;
+            .mainText{
+                    line-height: 1;
+                font-size: $bigFont;
+                    margin-bottom: 20px;
+               
+                .firstLine{
+                    @extend .em;
+                    left: -180px;
+                    position: absolute;
+                    color: $lime;
+                    
+                }
+                .secondLine{
+                     @extend .bold;
+                     font-size: 108px;
+                    color: $lime;
+                     
+                }
+
+
+        }
+    }
+}
