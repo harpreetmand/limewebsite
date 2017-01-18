@@ -14762,59 +14762,19 @@ transform: translate(-50%, -50%);*/
 }
 
 .newContactFirstPage {
-  -webkit-animation-name: example;
-  /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 1s;
   /* Safari 4.0 - 8.0 */
-  animation-name: example;
+  bottom: 10px;
   animation-duration: 1s;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes example {
-  0% {
-    bottom: 100px;
-  }
-  100% {
-    bottom: 10px;
-  }
-}
-/* Standard syntax */
-@keyframes example {
-  0% {
-    bottom: 100px;
-  }
-  100% {
-    bottom: 10px;
-  }
-}
 .newContactNotFirstPage {
-  -webkit-animation-name: notFirst;
-  /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 1s;
   /* Safari 4.0 - 8.0 */
-  animation-name: notFirst;
+  bottom: 100px;
   animation-duration: 1s;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes notFirst {
-  0% {
-    bottom: 10px;
-  }
-  100% {
-    left: 20px;
-  }
-}
-/* Standard syntax */
-@keyframes notFirst {
-  0% {
-    bottom: 10px;
-  }
-  100% {
-    left: 20px;
-  }
-}
 .thisHide {
   display: none;
 }
