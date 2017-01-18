@@ -46,6 +46,21 @@ ga('send', 'pageview');
   </pre>-->
 
 <body scroll class="transitionDelay {{ bgColor }}" ng-cloak ng-controller="MainController" ng-keypress="myFunct($event)">
+
+          <div class="newContact em animated {{showForm}} {{newContactFirstPage}}">
+            
+            <div class="moveUp">
+            <span ng-click="makeBig()" class="hideIfOpe">want to sweeten up your brand? get started here!</span>
+
+          <form class="show" action="#">
+            <span ng-click="makeBig()" class="">X</span>
+            <input type="text" class="name" id="name" placeholder="name"></input>
+            <input type="text" class="contact" id="contact" placeholder="contact"></input>
+            <textarea rows="4" placeholder="message"></textarea>
+            <button class="btn btn-primary" type="submit" value="Submit">submit</button>
+          </form>
+          </div>
+          </div>
   <div class="{{scroll}} tthh">
   </div>
   <div class="topBar">

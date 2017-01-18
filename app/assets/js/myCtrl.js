@@ -1,7 +1,7 @@
 /***************************************
               Main App Controller
             ****************************************/
-app.controller('MainController', function () {
+app.controller('MainController', function ($scope) {
   // $rootScope.$on( "$routeChangeStart", function(event, next, current) {
   //..do something
   //event.stopPropagation();  //if you don't want event to bubble up
@@ -111,6 +111,13 @@ app.controller('MainController', function () {
   //   $scope.swipeDown = function () {
   //     $scope.snapIndex--;
   //   };
+  $scope.makeBig = function(){
+    
+    if($scope.showForm =="newContactShowForm")
+    $scope.showForm = "";
+    else
+    $scope.showForm = "newContactShowForm";
+  }
 });
 
 
@@ -164,13 +171,14 @@ app.controller('home', function ($scope, $window, $rootScope, $location, $stateP
       return;
     }
     $scope.snapIndex = uurl;
+    console.log(uurl);
   }
   if (isNaN(uurl)) {
     newIndex = whichPage.getSnapindex(uurl);
 
     newUrl = uurl;
     currentIndex = newIndex;
-
+    console.log(currentIndex);
 
   }
   $scope.snapIndex = currentIndex;
@@ -228,7 +236,7 @@ app.controller('home', function ($scope, $window, $rootScope, $location, $stateP
       $rootScope.firstPage = "hideAlls";
       $rootScope.firstPageTop = "firstPageTop";
       $rootScope.firstPageSidebar = "firstPageSidebar";
-
+      $rootScope.newContactFirstPage = "newContactNotFirstPage";
 
       // setTimeout(function () {
 
@@ -245,6 +253,7 @@ app.controller('home', function ($scope, $window, $rootScope, $location, $stateP
       $rootScope.firstPage = "";
       $rootScope.firstPageTop = "";
       $rootScope.firstPageSidebar = "";
+      $rootScope.newContactFirstPage = "newContactFirstPage";
     }
     // if (snapIndex == 4 | snapIndex == 5 | snapIndex == 6 | snapIndex == 7 | snapIndex == 8 | snapIndex == 9 | snapIndex == 10 | snapIndex == 11 | snapIndex == 12 | snapIndex == 13) {
     //   $scope.ourWorkShow = "showThis";
