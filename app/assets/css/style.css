@@ -13235,7 +13235,7 @@ button.close {
 
   .homeIndicators .social {
     display: none;
-    bottom: 0px;
+    bottom: 40px;
   }
 }
 @media only screen and (max-width: 1692px) {
@@ -14442,6 +14442,89 @@ transform: translate(20%, -50%);*/
   position: absolute;
 }
 
+.newContact {
+  background-color: #1d1e19;
+  color: #fff;
+  position: absolute;
+  bottom: 100px;
+  overflow: hidden;
+  font-size: 18px;
+  padding: 8px;
+  height: 40px;
+  left: 20px;
+  width: 370px;
+  z-index: 555555555;
+  text-align: center;
+  -webkit-transition: all .5s;
+  /* Safari */
+  transition: all .5s;
+}
+.newContact .moveUp {
+  -webkit-transition: all .5s;
+  /* Safari */
+  transition: all .5s;
+  position: relative;
+  top: 0px;
+}
+.newContact .moveUp span {
+  cursor: pointer;
+}
+.newContact i {
+  float: right;
+  color: #97c93d;
+  cursor: pointer;
+}
+.newContact button {
+  background-color: #97c93d;
+  float: right;
+  border: none;
+  font-size: 15px;
+  padding: 4px 12px;
+}
+.newContact button:hover {
+  background-color: #EF4D4E;
+}
+.newContact input, .newContact textarea {
+  width: 100%;
+  padding: 1px 5px;
+  margin: 6px 0px;
+  border: none;
+  color: grey;
+}
+.newContact form {
+  -webkit-transition: all .5s;
+  /* Safari */
+  transition: all .5s;
+  padding-top: 50px;
+}
+
+.newContactShowForm {
+  height: 290px;
+  border-top: 10px solid #EF4D4E;
+  background-color: grey;
+}
+.newContactShowForm .moveUp {
+  top: -85px;
+}
+
+.newContactFirstPage {
+  -webkit-animation-duration: .5s;
+  /* Safari 4.0 - 8.0 */
+  bottom: 19px;
+  animation-duration: .5s;
+}
+
+.newContactNotFirstPage {
+  -webkit-animation-duration: .5s;
+  /* Safari 4.0 - 8.0 */
+  bottom: 90px;
+  animation-duration: .5s;
+}
+
+.invalidRed .ng-empty {
+  background: red;
+}
+
 @media screen and (max-height: 950px) {
   .changeWidthHome .allText .mainText {
     top: -100px;
@@ -14566,6 +14649,12 @@ transform: translate(20%, -50%);*/
   }
 }
 @media only screen and (max-width: 992px) {
+  .newContact {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+  }
+
   .videoPanel .fPMainText .content {
     /*top: 50%;
 left: 50%;
@@ -14718,63 +14807,6 @@ transform: translate(-50%, -50%);*/
     float: none;
   }
 }
-.newContact {
-  background-color: #1d1e19;
-  color: #fff;
-  position: absolute;
-  bottom: 100px;
-  overflow: hidden;
-  font-size: 18px;
-  padding: 15px;
-  height: 60px;
-  left: 20px;
-  width: 370px;
-  z-index: 555555555;
-  -webkit-transition: all 2s;
-  /* Safari */
-  transition: all 2s;
-}
-.newContact .moveUp {
-  -webkit-transition: all 2s;
-  /* Safari */
-  transition: all 2s;
-  position: relative;
-  top: 0px;
-}
-.newContact input, .newContact textarea {
-  width: 100%;
-  padding: 5px;
-  margin: 6px 0px;
-}
-.newContact form {
-  -webkit-transition: all 2s;
-  /* Safari */
-  transition: all 2s;
-  padding-top: 50px;
-}
-
-.newContactShowForm {
-  height: 315px;
-  border-top: 10px solid red;
-}
-.newContactShowForm .moveUp {
-  top: -85px;
-}
-
-.newContactFirstPage {
-  -webkit-animation-duration: 1s;
-  /* Safari 4.0 - 8.0 */
-  bottom: 10px;
-  animation-duration: 1s;
-}
-
-.newContactNotFirstPage {
-  -webkit-animation-duration: 1s;
-  /* Safari 4.0 - 8.0 */
-  bottom: 100px;
-  animation-duration: 1s;
-}
-
 .thisHide {
   display: none;
 }
@@ -14967,6 +14999,13 @@ pre {
   .bodyDiago {
     background-color: #C70751;
   }
+}
+.privacy {
+  position: absolute;
+  top: 86px;
+}
+.privacy h1 {
+  color: #97c93d;
 }
 
 /*# sourceMappingURL=style.css.map */

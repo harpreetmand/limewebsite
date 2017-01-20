@@ -175,4 +175,10 @@ pre{
   }
   @media only screen and (max-width: 767px) {
   }
-  
+  .privacy{
+      position: absolute;
+      top: 86px;
+      h1{
+          color: $lime;
+      }
+  }
