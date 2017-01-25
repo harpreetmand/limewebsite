@@ -14481,6 +14481,7 @@ transform: translate(20%, -50%);*/
   float: right;
   color: #97c93d;
   cursor: pointer;
+  margin-top: 13px;
 }
 .newContact button {
   background-color: #97c93d;
