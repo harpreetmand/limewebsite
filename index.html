@@ -44,13 +44,20 @@
   <div class="newContact em animated {{showForm}} {{newContactFirstPage}} {{invalidRed}}" ng-controller="contactCtrl">
     <div class="moveUp">
       <span ng-click="makeBig()" class="hideIfOpe">want to sweeten up your brand? get started here!</span>
-      <form class="show" ng-submit="contactFormSubmit()">
+      <form class="show" ng-hide="hideOnceGood" ng-submit="contactFormSubmit()">
         <span ng-click="makeBig()" class=""><i class="fa fa-times" aria-hidden="true"></i></span>
         <input type="text" class="name" id="name" ng-model="contactForm.name" placeholder="name"></input>
         <input type="email" class="contact" id="contact" ng-model="contactForm.email" placeholder="contact" required></input>
+        <input type="email" class="contact" id="contact" ng-model="contactForm.emailAgain" placeholder="contact" ng-hide="true" ></input>
         <textarea rows="5" ng-model="contactForm.message" placeholder="message"></textarea>
         <button class="" type="submit" value="Submit">submit</button>
       </form>
+      <div class="completedMessage" ng-show="hideOnceGood">
+        <span ng-click="makeBig()" class=""><i class="fa fa-times" aria-hidden="true"></i></span>
+        <strong>Thank you for considering Lime Advertising Inc.</strong><br/><br/>
+ 
+A member of our team will be in touch with you shortly to discuss your needs.
+</div>
     </div>
   </div>
 

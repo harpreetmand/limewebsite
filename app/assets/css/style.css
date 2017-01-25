@@ -14459,6 +14459,14 @@ transform: translate(20%, -50%);*/
   /* Safari */
   transition: all .5s;
 }
+.newContact .completedMessage {
+  position: relative;
+  top: 135px;
+}
+.newContact .completedMessage .fa {
+  top: -80px;
+  position: relative;
+}
 .newContact .moveUp {
   -webkit-transition: all .5s;
   /* Safari */

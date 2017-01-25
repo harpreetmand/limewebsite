@@ -172,7 +172,6 @@
 
     }
 }
-
 .newContact{
     background-color: #1d1e19;
     color: #fff;
@@ -189,6 +188,14 @@
     // left: 20px;
     -webkit-transition: all .5s; /* Safari */
     transition: all .5s;
+    .completedMessage{
+        position: relative;
+        top: 135px;
+        .fa{
+            top: -80px;
+            position: relative;
+        }
+    }
     .moveUp{
         -webkit-transition: all .5s; /* Safari */
         transition: all .5s;

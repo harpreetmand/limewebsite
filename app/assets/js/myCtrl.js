@@ -259,7 +259,8 @@ app.controller('contactCtrl', function ($scope, $http, $rootScope, $httpParamSer
           $scope.thankYou = data.thankYou;
           $scope.emailExist = data.emailExist;
           if ($scope.thankYou || $scope.emailExist) {
-            $scope.hideForm = true;
+            $scope.hideOnceGood = true;
+            console.log("done boi")
           }
         }
       });
